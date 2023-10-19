@@ -1,0 +1,435 @@
+response,predicted
+"Step 1: Please print criteria
+Step 2: The printing contract does not go to NB, then go to the list of the patient list that has been welcomed -> Find the company to see if the company has been welcomed KSK or not?
+'+ If not, do not report to the KSK -> need to report to the user
++ If then, go to the medical record screen to check","<s> Step 1: Please print criteria
+Step 2: The printing contract does not go to NB, then re -print the list</s>"
+"1/ The reception list screen: Check if NB has a service.If so, check the reception status of KSK = have welcomed KSK or not?-> If not, receive.If then set it to the case below
+2/ Has the account checked the specialties according to the value code in the general settings have the key chuyen_khoa?
+3/ Check if the examination service in the list of medical examination services has been assigned to KSK specialties","<s> 1/ The reception list screen: Check if NB has a service.If so, check the reception status of KSK or not?-> If not, receive.If then set it to the case below
+2/ Has the account checked the specialties according to</s>"
+"1/ Ask for the get time that the user reports -> Check the implementation time (implementation time) of the service at the medical record screen, press the eye icon to see, see satisfied timeLis Get space yet?
+(1.1) If not, then report the right time
+(1.2) If then check the case: Has the service category were set up the connection unit?If set up, then check the implementation room of the service is set out of the hospital = True or False -> True, the default does not display (need to change the settings and the repair impact of the implementation room to eat according to the designnew establishment), FASLE will display the side Lis
++ If it is true (1.1), (1.2), then report the ISOFH check","<s> 1/ Ask for the get time that the user reports -> Check the implementation time (implementation time) of the service at the medical record screen, press the eye icon to see, see satisfied timeLis Get space yet?
+(1.1) If</s>"
+"Processing: Please report the get specified by LIS and RESPONSE Returns to see at first Get, the RESPOne returns
+The main reason: Because at the time when GET indicates that the Payment status of HIS = has not been paid -> users can delete the order and re -appoint that service, the test ID has been changedWhen returning the results, it will not be found to pay (ISOFH explained to the PK side)","<s> Processing: Please report the get specified by LIS and Returns to see at first Get, the RESPOne returns
+The main reason: Because at the time when GET indicates that the Payment status of HIS = has not been</s>"
+"Cause: Because Lis Set lacks service status, it is lacked
+Solution: Lis map again
+Status: Lis has completed processing","<s> Handle:
+1. Cause: Because Lis Set lacks service status, it is lacked
+2. Lis map again
+Status: Lis has completed processing</s>"
+"Cause: Due to the Enter the ENTERT FOR LIS Convert, it is affected to drop some packets when updating the results to His","<s> Cause: Due to the Enter the ENTERT FOR LIS Convert, it is affected to drop some packets when updating the results to His</s>"
+Solution: Receiving screen -> Find NB and click the cancellation button -> Receive back,<s> Solution of this problem is 650ac3df600d9900a59954c2</s>
+"Processing: PK exchange on the common group: Mirai Clinic His-ri-racs so that the two sides of His, Pacs will know the support information
+Details: When His, Pacs received information to clarify:
+With His: Please report and reponse when PACS returns successful results to check
+For PACS: Provide newsletters, reposne with the time to return the results to HIS check log on his side
+After completion: Report the results to the PK side","<s> Processing: PK exchange on the common group: Mirai Clinic His-ri-racs so that the two sides of His, Pacs will know the support information
+Details: When His, the information to clarify:
+With His</s>"
+"Cause: Because the user is wrongly accumulated icon does not perform in the screen of the Tab DVKT tab -> Payment status changes from normal => does not perform
+So Pacs returned the results to his error
+Processing: DEV report in return status = normal to return the results of guests
+Status: Redented only for system administration to confirm not to perform -> no more accommodation errors as notified to the case of payment status = no implementation","<s> Cause: Because the user is wrongly accumulated icon does not perform in the screen of the Tab DVKT tab -> Payment status changes from normal => do not perform
+So Pacs returned the results to his error
+Process</s>"
+"Check if NB is under 18 years old?Because patients under 18 years old, there is only 1 form A4.
+And over the age of 18 to choose the form: A3 or A4","<s> There is 1. Go to the list of inpatient patients
+2. Choose the right work department
+3. Use filters, filter the status of the status into 'all' and press
+4. Proceed to find NB through the name, code</s>"
+"Handling steps:
+1/ Go to the contract list -> Tab list of patients, go to the details of the column's data to change the form of service in addition to the contract from the payment according to the contract into a self -payment.
+2/ Screen: The list of patients has welcomed, searched NB -> into the details of NB -> click the button edit: Self -return for the indicated services outside the contract -> click Button Luu
+The purpose of the step (2) for the system to produce the payment voucher in the screen list","<s> Handling steps:
+1/ Go to the contract list -> Tab list of patients, go to the details of the column's data to change the form of service in case the contract does not charge
+What the contract is now?
+2/ Screen:</s>"
+Need to push a new exam from CRM to give birth to a new application code (using the same code NB),<s> Need to push a new exam from CRM to give birth to a new application code (using the same code NB)</s>
+"1/ In case of existing results in the list of image diagnostic results and function exploration: Service name field, adding the service name to assign that available results sample
++ If the service is added to the KQ model, users need to click on the icon?(On the right hand the screen, press the category syncing -> go back to the guest and add the results for guests
+
+2/ In case there is no result form of the service in the list of image diagnostic results and functional exploration -> need to press more new samples, fill out the information: name+, code+, informationKQ, KL, intervention method, intervention method, service name+","<s> 1/ In case of existing results in the list of available samples, adding the service name to the available results sample
++ If the service is added to the KQ model, users need to click on the icon?(On the right hand the screen, press the</s>"
+"NSD: Contact the IT department/ department in charge to handle
+IT room:
+1. In account administration
+2. Search and select accounts to be processed
+3. Click to select Reset the password in the operating pole
+=> The system will reset the default password of NSD to 123456","<s> NSD: Contact the IT department/ department in charge to handle
+IT room:
+1. In account administration
+2. Search and select accounts to be processed
+3. Click to select Reset the password in the operating pole
+=></s>"
+"The reason is that computers have antivirus software-> antivirus software is default that isofhtool is an unsafe software, so automatically deleted the installation file => cannot use LCD + cannot print quickly quickly
+
+Handle:
+1. Find the antivirus software
+2. Return Antivirus software that allows not to scan into the file isofhtool","<s> The reason is that the antivirus software is default that isofhtool is an unsafe software, so automatically deleted the installation file => cannot use LCD + cannot print quickly quickly
+
+Handle:
+1. Find the material
+2.</s>"
+"Cause: Because the URL of the Tool and Shortcut outside the screen does not coincide with each other
+Handle:
+1.What is the URL to see what the URL
+2.Copy again the URL finished the tool and paste on the website
+3.The old shortcut and creating a new shortcut for the computer","<s> Cause: Because the URL of the Tool and Shortcut outside the screen does not coincide with each other
+Handle:
+1.What is the Urine
+2.Copy
+3.The old shortcut and creating a new</s>"
+"Handle:
+1.To ISoft Tools
+2. Save button","<s> Handle:
+1.To ISoft Tools
+2. Save button</s>"
+"Handle:
+Temporarily, when encountering this case.
+1. Escape or Ctrl F5
+2. Select that nb again
+3. Entering the hospital
+4. Save
+5. Print hospitalization","<s> Handle:
+Temporarily, when encountering this case.
+1. Escape or Ctrl F5
+2. Select that nb again
+3. Entering the hospital
+4. Save
+5. Print the list</s>"
+"Handle
+In case of not paid:
+1.The first call down the room to specify that service requires cancellation of the service
+2.After the reception, the service will fall into a state of welcoming, at this time I can delete the service.
+In case of payment:
+1.The first call the studio to choose to cancel the payment
+2. In case the patient has received it, perform the operation as the above steps and pay again
+3. In case the patient has not been accepted into the clinic, cancel payment -> cancel the service and then pay again
+Currently the case of Le Kha Nhu
+Application code:
+2306080067
+NB code:
+2306006611
+Being trapped by the reason is that the doctor forgot to delete that appointment and paid, the patient returned.","<s> Handle
+In case of not paid:
+1.The first call down the room to specify that service requires cancellation of the service
+2.After the reception, the service will fall into a state of welcoming, at this time I can delete the</s>"
+"There are 2 cases
++ Th 1: Not ticking without charge (international insurance) => running the Tick 'does not charge' is ok
++ TH2: The doctor set up a long -term non -resident medical record
+1. Check the long -term treatment department: Choose a new medical examination
+2. Check out the diagnostic doctors !!","<s> There are 2 cases
++ Th 1: Not ticking without charge (international insurance) => running the Tick 'does not charge' is ok
++ TH2: The doctor set up a long -term non -resident medical record
+1. Check</s>"
+"Treatment:
+1. Go to another utility, choose to cancel the examination (because when I call in, the person will switch from the state of the examination, so I have to cancel the examination so that NB will switch to the status of waiting for the examination)
+2. Choose another utility, change the room or ask to operate the room for the room","<s> Treatment:
+1. Go to another utility, choose to cancel the examination (because the first call down the room)
+2. The reception room for the appointment has been welcomed, so that NB will switch to the status of waiting for</s>"
+"Treatment:
+1. Checking if not counting money is a service or supplies
+2. If it is a material => medical examination => supplies => divine pencil => press excluding money => save","<s> Treatment:
+1. Checking if not counting money is a service or supplies
+2. If it is a material => medical examination => supplies => divine pencil => press excluding money => save</s>"
+"1. Go to the examination screen to find NB name
+2. Cancel conclusions
+3. Delete the Institute
+4. Other utilities: Cancel exam-> change the implementation room","<s> 1. Go to the examination screen to find NB name
+2. Cancel conclusions
+3. Delete the Institute
+4. Receive to change the implementation room</s>"
+"1. Choose other utilities
+2. Select consultation
+3. Select new consultation
+4. Information
+5. Save button
+6. Print button","<s> 1.NB Payment -> Call accountant to request cancellation of HDDT and cancel payment
+2.The NB list has been welcomed
+3. Select edit information
+4. Health insurance code</s>"
+"1. Check what the printer is now
+2.The category of Setting printer is suffering to be in accordance with the format
+3. Data set","<s> Handle:
+1. Click on the printer icon
+2. Delete old print commands
+3. Print the votes</s>"
+"In case of occurring when NB registered the A examination pack then changed to the exam pack B but the system did not update the data => the doctor appointed the Sercut Service of the examination pack, the system will report an error
+Solution
+1. Go to the DS to welcome to check again to see which package is being registered
+2. Ctrl F5 to reload data again","<s> In case of occurring when NB registered the A examination pack then changed to the exam pack B but the system did not update the data => the doctor appointed the Sercut Service of the examination package, the system will report an error
+Solution</s>"
+"The doctor gives the prescription day for 30 days but there is 1 drug that only takes 5 days
+Solution:
+1. Status all prescriptions as usual => Save prescription
+2. Click on the pen editing pen to edit
+3. Edit the number of prescribed days at the 'number of days' information school
+4. Save","<s> The doctor gives the prescription day for 30 days but there is 1 drug that only takes 5 days
+Solution:
+1. Status all prescription days
+2. Save prescription
+3. Click on the pen editing pen to edit
+4. Edit</s>"
+"1.The section concluding the examination or pressing F11
+2. Closing records.","<s> 1.The section concluding the examination or pressing F11
+2. Closing records.</s>"
+"At present, he is forced to make an advance to manipulate it for this case
+1. Tick does not charge
+2. Go to the closed medical examination 'ignore'
+Or if NB does not examine
+=> Go to DS to welcome to delete the examination
+=> Cancel welcome NB","<s> At present, he is forced to make an advance to manipulate it for this case
+1. Tick does not charge
+2. Go to the closed medical examination 'ignore'
+Or if NB does not examine
+=> Go to DS to welcome to</s>"
+"Currently: On His doctor, if the doctor indicates a blood -related test, after appointing the DV status will be in a state of 'waiting for samples' so if you want to delete it, you will not be deleted.
+Handle:
+1. Go to the test module on His
+2. Confirmation of sampling
+3. Cancellation of samples
+4. Go to MH to delete the indicator","<s> Currently: On His doctor, if the doctor indicates a blood -related test, after appointing the DV status will be in a state of 'waiting for samples' so if you want to delete it, you will not be deleted.
+Handle:</s>"
+"This case is because the doctor does not enter the department to be admitted to the hospital.
+Handle:
+Go to the exam conclusion => scroll down to the selection of the hospital for hospitalization => Select the department =","<s> This case is because the doctor does not enter the department to be admitted to the hospital.
+Handle:
+Go to the exam conclusion => scroll down to the selection of the hospital for hospitalization => Select the department =</s>"
+"Handle :
+1. Search patients.
+2. Click on the service details.
+3. Bringing the service to the ultrasound room (SA).","<s> Handle :
+1. Search patients.
+2. Click on the service details.
+3. Bringing the service to the service.</s>"
+"Handle :
+1. Search for patient services.
+2. Click on the service details.
+3. Select the material section.
+4. Delete the prescribed supplies.
+5. Cancel service","<s> Handle :
+1. Search for patient services.
+2. Click on the service details.
+3. Select the material section.
+4. Delete the prescribed supplies.
+5. Cancel service</s>"
+"Handle:
+1.When the cash screen checks to see what state is in the state
+2.If the patient is in the state that has ended or discharged from the hospital, then re -print the list to see if it is still sufficient or not (because it may have just updated the status)
+3.If NB is in the state of treatment, we end the treatment (in case the NB has been completed) or the treatment interrupted (in case NB will return to treatment) and then re -print the list).","<s> Handle:
+1.When the cash screen checks to see what state is in the state
+2.If the patient has ended or discharged from the hospital, then re -print the list to see if it is still sufficient or not (because it</s>"
+"Handle:
+1.What area category
+2. In the area of the area we search for tieuchuan
+3.Click in there, adjust the type of object from the standard to strengthening","<s> Handle:
+1.What area category
+2. In the area of the area we search for tieuchuan
+3.Click in there, adjust the type of object from the standard to strengthen</s>"
+"Handle:
+1. Click on the printer icon
+2. Delete old print commands
+3. Print the votes","<s> Handle:
+1. Click on the printer icon
+2. Delete old print commands
+3. Print the votes</s>"
+"Handle:
+1. Scan the application code into the cashier
+2. Print the list","<s> Handle:
+1. Scan the application code into the cashier
+2. Print the list</s>"
+"Processing: 1) Calling them to be an eye examination or a molar examination, 2) asking them to send a message to the service guide","<s> Processing: 1) Calling them to be an eye examination or a molar examination, 2) asking them to send a message to the service guide</s>"
+Processing: 1) Finish the long -term treatment and then continue printing,<s> Processing: 1) Finish the long -term treatment and then continue printing</s>
+"treatment:
+1.Instead of repairing the type of object to change the type of object to health insurance
+2.The after repairing the type of payment in the patient's reception is the fee/health insurance","<s> treatment:
+1. Payment of the old receipt, in case the drug does not charge
+What the patient area examines the box without money
+2.After that is new, normal,</s>"
+"treatment:
+1. Payment of the old receipt, in case the drug does not charge
+What the patient area examines the box without money
+2.After that is new, normal,","<s> treatment:
+1. Payment of the old receipt, in case the drug does not charge
+What the patient area examines the box without money
+2.After that is new, normal,</s>"
+"1. Check to see if the patient is in a state of treatment
+2.If you are in the process of treatment
+2.1 treatment (in case of NB continues to treat, print the list and then re -treatment)
+2.2 treatment ending and printing the list (in case of completion of treatment)","<s> 1. Check to see if the patient is in a state of treatment
+2.If you are in the process of treatment, you want to treat
+3.1 treatment (in case of NB continues to treat, print the list and then re -treatment)
+4</s>"
+"1.NB Payment -> Call accountant to request cancellation of HDDT and cancel payment
+2.The NB list has been welcomed
+3. Select edit information
+4. Health insurance code","<s> 1.NB Payment -> Call accountant to request cancellation of HDDT and cancel payment
+2.The NB list has been welcomed
+3. Select edit information
+4. Health insurance code</s>"
+"Handle:
+1. The doctor canceled the conclusion, cancel the examination
+2. Receive to cancel the old service, resume the service","<s> Handle:
+1. The doctor canceled the conclusion
+2. Receive to cancel the old service, resume the service</s>"
+"Handle:
+1. When entering the information of the immunization object, the system will display the previously imported NB information
+2. Click on NB information to receive NB, agree to give birth to a new HS code
+3. Service statement as usual","<s> Handle:
+1.To ISoft Tools
+2. Save button</s>"
+"Handle:
+1. Go to the clinic to click cancel the examination
+2. The reception desk on the 'Welcoming NB list' and click the Room","<s> Handle:
+1. Go to the Clinic to click cancel the examination
+2. The reception desk on the 'Welcoming NB list' and click the Room</s>"
+"Handle:
+1. In the immunization reception screen, select the object of 'employees' and enter the village news like BTH
+2. Service and clinic specifications like other examinations
+3. Go to the screen 'Welcome NB list' and tick without charge","<s> Handle:
+1. In the immunization reception screen, select the object of 'employees' and enter the village news like BTH
+2. Service and clinic specifications like other examinations
+3. Go to the screen '</s>"
+"Handle:
+Report to ISOFH to delete because the current deletion feature is not available","<s> Handle:
+Report to ISOFH to delete because the current deletion feature is not available</s>"
+"Handle:
+TN Hoan advance will be the one who pays the service.","<s> Handle:
+TN Hoan advance will be the one who pays the service.</s>"
+"Handle:
+1. Select the end of treatment.
+2. Choose the lines on the bed that you want to edit or delete.
+3. Select the icon icon 'select' continue 'pencil' and edit the number of days and time to change.
+4. Select the 'volume' sign to save.
+5. Select the icon 'trash' to delete.","<s> Handle:
+1. Select the end of treatment.
+2. Choose the lines on the bed that you want to edit or delete.</s>"
+"Handle:
+1. Select the link without link.
+2. Click on the pencil and check the 'usage line' of the fluid.
+2. If the wrong way, select and save.","<s> Handle:
+1. Select the link without link.
+2. Click on the pencil and check the 'usage line '
+3. If the wrong way, select and save.</s>"
+Doctor prescribing the service and administrative department printing the health insurance list,"<s> Doctor prescribing the service and administrative department printing the medical record
+1. Save prescribed supplies
+2. Print the list</s>"
+"1. End of treatment
+2. Edit the number of bedroom days in accordance with reality","<s> 1. End of treatment
+2. Adjust the implementation time of the bed
+3. Choose the lines on the bed that you want to edit or delete
+4. Select the icon icon'select' continue 'pencil' and edit the</s>"
+"1. Go to general information to select hospital information
+2. Delete the discharge date -> press","<s> 1. Go to general information to select hospital information
+2. Delete the discharge date -> press</s>"
+"1. Check the documents to see if there is any condition that is not satisfied
+2. Solving these conditions - Going to the boarding service about the information of the services:
+2.1.The service has not been completed - Contact the doctor to see if the service has done it yet, if any, please ask the doctor to complete that dv with the time of completion before the time of the hospital
+2.2.Getting caught: if the drug has been -> returning the drug;If the drug has not been given -> delete that medicine in the treatment sheet
+2.3.Error related to time -> go to the boarding service to correct the time before the time of the hospital or the time of the hospital after that time","<s> 1. Check the documents to see if there is any condition that is not satisfied
+2. Other utilities -> Cancel reception of patients
+3. Delete medical records in the medical record
+4. Cancellation of conclusions in the exam</s>"
+"1. End of treatment
+2. Completing the service that has not returned the results, gives the drug for the drugs that have not been given
+3. Direction for treatment of hospital transfer -> completing referral paper-> printing transfer paper","<s> 1. End of treatment
+2. Completing the service that has not returned the results, gives the drug for the drugs that have not been given
+3. Direction for treatment of hospital transfer -> completing referral paper-> printing transfer paper</s>"
+"On the BS system for the appointment of the order to print the designated voucher, in case the family does not agree, delete the appointment.","<s> On the BS system for the appointment of the order to print the designated voucher, in case the family does not agree, delete the appointmment.</s>"
+"1. If the reception is welcomed, prescribed materials or indications -> delete indications, materials
+2. Other utilities -> Cancel reception of patients
+3. Delete medical records in the medical record
+4. Cancellation of conclusions in the examination screen and service statement","<s> 1. If the reception is welcomed, prescribed materials or indications -> delete indications, materials
+2. Other utilities -> Cancel reception of patients
+3. Delete medical records in the medical record
+4. Cancellation</s>"
+Instructing the doctor to recreate the room to perform in the department so that the nursing can find nb and import drugs as well as supplies needed for the service.,<s> Instructing the doctor to recreate the room to perform in the department so that the nursing can find nb and import drugs as well as supplies needed for the service</s>
+Because other accounts are not saved or due to the successful treatment of treatment.HD BS after fixing the treatment sheet should wait after 5 minutes to turn off the tab.,<s> Because other accounts are not saved or due to the successful treatment of treatment.HD BS after fixing the treatment sheet should wait after 5 minutes to turn off the tab.</s>
+"1. Visit the bedroom to check if NB is lying on the bed on the day of the drug form
+- If 'no' -> add the bed room
+- If 'yes' -> check the time to lie down to see the right?-> Adjust the time
+2. Create more votes","<s> 1. Visit the bedroom to check if NB is lying on the bed on the day of the drug form
+- If 'no' -> add the bed room
+- if 'yes' -> check the time to lie down to see the right?-> Adjust</s>"
+"1. Only create a pre -treatment sheet in case of sure that NB will not transfer the department
+2.If NB transferred the department, it must be deleted before the previous treatment
+3.After moving back to the initial department, the new treatment sheet","<s> 1. Only create a pre -treatment sheet in case of sure that NB will not transfer the department
+2.If NB transferred the department, it must be deleted before the previous treatment
+3.After moving to the new treatment sheet</s>"
+"1. Cashier CONTACT FACIL
+2. Faculty of editing time of the treatment sheet before the current time (eg 9h20)
+3. Adjust the implementation time of services, drugs, ... in the treatment sheet
+4. End of treatment
+5. Print the list","<s> 1. Cashier CONTACT FACIL
+2. Faculty of editing (eg 9h20)
+3. Adjust the implementation time of services, drugs,... in the treatment sheet
+4. End of treatment
+5.</s>"
+Correct name nb,"<s> Correct name ->
+1. The doctor appointed the service to perform
+2. At the procedure surgery screen -> receiving -> filling in information -> click without surgery
+
+-> Purpose: There is information to print a new medical record, the service does</s>"
+"1. Delete the coupon
+2. Adjust the quantity","<s> 1. Choose other utilities
+2. Delete the coupon
+3. Adjust the quantity</s>"
+Doctor prescribing the service and administrative department printing the health insurance list,<s> Doctor prescribing the service and administrative department printing the healthcare insurance list</s>
+Instructions for canceling the retail drug.Instructions on the doctors from even on an even on the cabinet for some drugs immediately canceled or canceled after 24 hours of even SL to synthesize offset the cabinet,"<s> 1. Go to the list of inpatient patients
+2. Choose the right work department
+3. Use filters, filter the status of the status into 'all' and press
+4. Proceed to find NB through the name, code NB</s>"
+"Reason: The type of medicine in the hospital medicine warehouse has existed or that drug exists many codes that the code wants to receive.
+Call down the pharmaceutical warehouse for treatment.","<s> Reason: The type of medicine in the hospital medicine warehouse has existed or that drug exists many codes that the code wants to receive.
+Call down the pharmacy for treatment.</s>"
+"1. Go to the list of inpatient patients
+2. Choose the right work department
+3. Use filters, filter the status of the status into 'all' and press
+4. Proceed to find NB through the name, code NB, HS code, BA code","<s> 1. Go to the list of inpatient patients
+2. Choose the right work department
+3. Use filters, filter the status of the status into 'all' and press
+4. Proceed to find NB through the name, code NB</s>"
+"1. Go to the list of inpatient patients
+2. Choose the correct name of the sick person to update the bed date information
+3. Go to the room tab, bed
+4. Choose the bed line to edit
+5. Click on the eye -shaped icon to view information
+6. Click on the pen icon is to edit the field and press the tick to save the change
+Note: Can only change room information, beds with chief or departmental accounts","<s> 1. Go to the list of inpatient patients
+2. Choose the bed line to edit
+3. Select the icon icon'select' continue 'pencil' and edit the results to his
+4. Click on the pen</s>"
+"1. The doctor appoints the service to perform
+2. At the procedure surgery screen -> receiving -> filling in information -> click without surgery
+
+-> Purpose: There is information to print a report, the service does not charge and does not go to the list","<s> 1. The doctor appoints the service to perform
+2. At the procedure surgery screen -> receiving -> filling in information -> click without surgery
+
+-> Print the list</s>"
+"1. Go to boarding service
+2. Check any dv drum type of payment is supplemented.","<s> 1. Go to boarding service
+2. Check any dv drum type of payment is supplemented.</s>"
+The browser settings allow to open a new tab,"<s> The doctor appoints the service to perform
+Handle:
+1.What service category does not perform
+2.After the reception, the service will fall into a state of welcoming, at this time I can delete the service.
+In case of payment:
+</s>"
+"Cancel all the printing commands waiting => re -print => If still not, then temporarily block the printing tool","<s> Handle:
+1. Click on the printer icon
+2. Delete old print commands
+3. Print the votes</s>"
+"Check the tool to lead the correct image of the image on the scanner, if not, then fix the path to the image saving folder on the machine","<s> Check the tool to lead the correct image of the image on the scanner, if not, then fix the path to the image saving folder on the machine</s>"
+"Go to the treatment sheet to choose the service, find the service you want to convert, click confirm","<s> Go to the treatment sheet to choose the service, find the service you want to convert, click confirm</s>"
+"I am IVIVI, chatbot answered questions about youD for you","<s> I can't give you a name, because it is not given to me. Can you give birth to a newborn?</s>"
+"Sorry I couldn't do it like chat GPT, I was just a bot installed to answer questions about your use documents that I learned.",<s> Sorry I couldn't help it. I was just a bot installed to answer questions about your use documents that I learned.</s>
+I was developed by Developer Hoang Minh Son - a member of Team IVISSE at ISOFH,<s> I was created by Developer Hoang Minh Son - a member of Team IVISSE at ISOFH</s>
+"My answer is aimed at supporting customers, based on understanding and what I have been taught.The answer is for reference only, not 100%incorrect.","<s> My answer is aimed at supporting customers, based on understanding and what I have been taught.The answer is for reference only, not 100%incorrect.</s>"
+"Sorry I have a mistake, please ask questions again.Your question will be recognized and improved in the coming conversations.","<s> Sorry I have a mistake, please ask questions again.Your question will be recognized and improved in the coming conversations.</s>"
+I was created by Developer Hoang Minh Son of Team IVIRES,<s> I was created by Developer Hoang Minh Son of Team IVIRES</s>
+"Hello, I'm Vivi.I am chatbot - medical assistant support and I am not old.I was programmed to help you search for information on how to use ISOFH products.Let Vivi know if you are having any problems!",<s> I'm 55 years old.I was programmed to help you search for information on how to use ISOFH products.Let Vivi know if you are having any problems!</s>
